@@ -13427,3 +13427,20 @@ img{
 	background-image: linear-gradient(to left, #F7951D 0%, #FFC009 100%);
 	border: solid 1px #F7951D;
 }
+
+.text-3 {
+	display: -webkit-box;
+    -webkit-box-orient: vertical; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    line-clamp: 3; 
+    -webkit-line-clamp: 3; 
+}
+.text-2 {
+	display: -webkit-box;
+    -webkit-box-orient: vertical; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    line-clamp: 2; 
+    -webkit-line-clamp: 2; 
+}
