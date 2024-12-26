@@ -296,6 +296,10 @@
 		min-width:30px;		
 		margin: 0 2px 0 2px;
 	}
+
+	.hidden-phone {
+		display: none !important;
+	}
 }
 
 @media (min-width: 931px) and (max-width: 940px) {
