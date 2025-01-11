@@ -13445,3 +13445,30 @@ img{
     line-clamp: 2; 
     -webkit-line-clamp: 2; 
 }
+
+.ginseng-icon {
+    background-image: url('../images/ginseng.svg');
+    display: inline-block;
+    width: 70px; 
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.inner-box:hover .ginseng-icon {
+    filter: brightness(0) invert(1); /* This will make the icon white */
+}
+
+
+.investment-icon {
+    background-image: url('../images/investment.svg');
+    display: inline-block;
+    width: 70px; 
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.inner-box:hover .investment-icon {
+    filter: brightness(0) invert(1); /* This will make the icon white */
+}
